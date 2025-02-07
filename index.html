@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Oliver Smith Portfolio</title>
+</head>
+<body>
+
+    <main id="main">
+        <aside id="aside-name" data-tab-target="#home-page">O.S.</aside>
+        <aside id="aside-zone">London <span id="aside-zone-time"></span></aside>
+        <aside id="aside-email">oliver_smith@hotmail.co.uk</aside>
+        <div id="aside-menu"></div>
+        <aside id="aside-icon"><a href="mailto:oliver_smith@hotmail.co.uk"><i class="fa fa-envelope"></i></a></aside>
+        <div class="hamburger" aria-label="Programming">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <a href="" data-tab-target="#home-page" class="nav-links" aria-label="">Home</a>
+            <a href="" data-tab-target="#about-page" class="nav-links" aria-label="About">About</a>
+            <a href="" data-tab-target="#programming-page" class="nav-links" aria-label="Programming">Programing</a>
+            <a href="" data-tab-target="#design-page" class="nav-links" aria-label="Design">Design</a>
+            <a href="" data-tab-target="#contact-page" class="nav-links" aria-label="Contact">Contact</a>
+        </nav>
+        <div class="main-inner">
+
+            <section id="home-page" data-tab-content class="active">
+                <div class="page page-home" id="home-page" >
+                    <div class="home-headers">
+                        <h1><span>O</span>Liver <span>S</span>mith</h1>
+                        <h1><span>F</span>ront<span>E</span>nd</h1>
+                        <h1><span>W</span>eb<span>D</span>eveloper</h1>
+                        <h1>&<span>D</span>esigner</h1>
+                    </div>
+                    <div class="home-info">
+                        <p>Portfolio of Oliver Smith</p>
+                        <p>Front End Developer</p>
+                        <p>London</p>
+                        <p>oliver_smith@hotmail.co.uk</p>
+                        <div class="home-info-links">
+                            <a href="">X</a>
+                            <a href="">X</a>
+                            <a href="">X</a>
+                            <a href="">X</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about-page" data-tab-content="">
+                <div class="page page-about">
+                    <div class="about-inner">
+                        <div class="tool-check">
+                            <p>HTML <i class="fa fa-check"></i></p>
+                            <p>CSS <i class="fa fa-check"></i></p>
+                            <p>Javascript <i class="fa fa-check"></i></p>
+                            <p>Figma <i class="fa fa-check"></i></p>
+                            <p>React <i class="fa fa-check"></i></p>
+                            <p>Git <i class="fa fa-check"></i></p>
+                            <p>Github <i class="fa fa-check"></i></p>
+                            <p>Command Line <i class="fa fa-check"></i></p>                            
+                            <p>API's <i class="fa fa-check"></i></p>
+                        </div>
+                        <div class="about-text">
+                            <p>Hi, I'm Oliver.</p>
+                            <p>I'm a self-taught front-end developer based in London.</p>
+                            <p>Passionate about creating user-friendly and stylish web projects, I am also a self-taught on the design end.</p>
+                            <p>For web apps and websites my bread and butter is Javascript, with some React experience.</p>
+                            <p>For prototyping and designs, I use Figma.</p>
+                        </div>
+                        <div class="about-text">
+                            <p>I started my journey off by learning HTML, CSS, and Javascript.</p>
+                            <p>Once comfortable and confident with these I directed my attention to the React Library.</p>
+                            <p>To improve my designing and creativity I started learning and using the design tool Figma, which I now use to start most projects.</p>
+                        </div>
+                        <div class="about-text">
+                            <p>I consider myself to be an excellent communicator; which helps me produce exactly what the client wants as well as giving them a clear understanding of what can be achieved.</p>
+                            <p>I am also very critical and analytical, spotting errors and fine tuning code and UI/UX for the best aesthetic and practical output on projects.</p>
+                            <p>All websites I make are designed to function on both desktop and mobile screen sizes.</p>
+                        </div>
+                        <div class="about-text">
+                            <p>While I do love working, and everything that comes with the web developement world, I also love:</p>
+                            <div class="tool-check">
+                                <p>Sport: Football, Tennis, Cricket, Basketball <i class="fa fa-check"></i></p>
+                                <p>Reading: Fiction, Non-Fiction, Classics <i class="fa fa-check"></i></p>
+                                <p>Film <i class="fa fa-check"></i></p>
+                                <p>Music <i class="fa fa-check"></i></p>
+                                <p>Guitar <i class="fa fa-check"></i></p>                            
+                                <p>Brain activities: Sudoku / Rubiks Cube <i class="fa fa-check"></i></p>
+                            </div>
+                            <!-- <p>Sport. Watching and playing football, tennis, cricket and basketball.</p>
+                            <p>Brain activities: sudoku, rubiks cube, crosswords, quizzes. Anything that keeps my brain active.</p>
+                            <p>I am a regular book reader. I like to mix it up between fiction and non fiction, as well as every now and then reading a classic to keep me on my toes.</p>
+                            <p>I try to go to the cinema as much as possible to catch any new films coming out, as well as starting to build up a second hand dvd (soon to become relics?) collection.</p>
+                            <p>Having played guitar since I was a teenager I listen to a wide range of music across many genres, trying to see live music whenever I can.</p>
+                            <p>I am hoping to start incorporating some of my hobbies into some web dev personal projects soon.</p> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="programming-page" data-tab-content>
+                <div class="page page-projects-programming">
+                    <div class="projects-programming-inner">
+                        <div class="programming-project js-project">
+                            <div class="project-header">
+                                <h1>Tic Tac Toe || Javascript</h1>
+                                <p> 01</p>
+                            </div>
+                            <div class="project-tools">
+                                <p>HTML <i class="fa fa-check"></i></p>
+                                <p>HTML <i class="fa fa-check"></i></p>
+                                <p>HTML <i class="fa fa-check"></i></p>
+                                <p>HTML <i class="fa fa-check"></i></p>
+                            </div>
+                            <!-- <p class="project-text">Tic Tac Toe game made with Javascript</p> -->
+
+                            <div class="project-links">
+                                <a href="">Gitub</a>
+                                <a href="">View App</a>
+                            </div>
+                        </div>
+                        <div class="programming-project js-project">
+                            <div class="project-header">
+                                <h1>Book Library || Javascript</h1>
+                                <p>02</p>
+                            </div>
+                            <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolores? Quia a error nihil earum.</p>
+                            <div class="project-links">
+                                <a href="">Gitub</a>
+                                <a href="">View App</a>
+                            </div>
+                        </div>
+                        <div class="programming-project js-project">
+                            <div class="project-header">
+                                <h1>Calculator || Javascript</h1>
+                                <p>03</p>
+                            </div>
+                            <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolores? Quia a error nihil earum.</p>
+                            <div class="project-links">
+                                <a href="">Gitub</a>
+                                <a href="">View App</a>
+                            </div>
+                        </div>
+                        <div class="programming-project js-project">
+                            <div class="project-header">
+                                <h1>Etch Sketch || Javascript</h1>
+                                <p> 04</p>
+                            </div>
+                            <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolores? Quia a error nihil earum.</p>
+                            <div class="project-links">
+                                <a href="">Gitub</a>
+                                <a href="">View App</a>
+                            </div>
+                        </div>
+                        <div class="programming-project react-project">
+                            <div class="project-header">
+                                <h1>Movie App || React</h1>
+                                <p> 07</p>
+                            </div>
+                            <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolores? Quia a error nihil earum.</p>
+                            <div class="project-links">
+                                <a href="">Gitub</a>
+                                <a href="">View App</a>
+                            </div>
+                        </div>
+                        <div class="programming-project react-project">
+                            <div class="project-header">
+                                <h1>Notes App || React</h1>
+                                <p> 08</p>
+                            </div>
+                            <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolores? Quia a error nihil earum.</p>
+                            <div class="project-links">
+                                <a href="">Gitub</a>
+                                <a href="">View App</a>
+                            </div>
+                        </div>
+                        <div class="programming-project js-project">
+                            <div class="project-header">
+                                <h1>Rock, Paper, Scissors || Javascript</h1>
+                                <p> 05</p>
+                            </div>
+                            <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolores? Quia a error nihil earum.</p>
+                            <div class="project-links">
+                                <a href="">Gitub</a>
+                                <a href="">View App</a>
+                            </div>
+                        </div>
+                        <div class="programming-project js-project">
+                            <div class="project-header">
+                                <h1>Text Formatter || Javascript</h1>
+                                <p> 06</p>
+                            </div>
+                            <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolores? Quia a error nihil earum.</p>
+                            <div class="project-links">
+                                <a href="">Gitub</a>
+                                <a href="">View App</a>
+                            </div>
+                        </div>
+                        <div class="programming-project js-project">
+                            <div class="project-header">
+                                <h1>Meme Generator || Javascript</h1>
+                                <p> 09</p>
+                            </div>
+                            <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolores? Quia a error nihil earum.</p>
+                            <div class="project-links">
+                                <a href="">Gitub</a>
+                                <a href="">View App</a>
+                            </div>
+                        </div>
+                        <div class="programming-project freelance-project">
+                            <div class="project-header">
+                                <h1>Voiceover Artist || Javascript || Freelance</h1>
+                                <p> 10</p>
+                            </div>
+                            <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolores? Quia a error nihil earum.</p>
+                            <div class="project-links">
+                                <a href="">Gitub</a>
+                                <a href="">View App</a>
+                            </div>
+                        </div>
+                        <div class="programming-project freelance-project">
+                            <div class="project-header">
+                                <h1>Sports & Socia Club || Javascript || Freelance</h1>
+                                <p> 11</p>
+                            </div>
+                            <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolores? Quia a error nihil earum.</p>
+                            <div class="project-links">
+                                <a href="">Gitub</a>
+                                <a href="">View App</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="design-page" data-tab-content="">
+                <div class="page page-design">
+                    <p>All designs made in Figma</p>
+                    <p>Check my <a href="https://dribbble.com/OliverPSmith" target="_blank">Dribbble</a> for more</p>
+                    <div class="design-inner">
+                        <img src="images/Kawhi Home.png" alt="">
+                        <img src="images/Kawhi Shoes.png" alt="">
+                        <img src="images/nikeOne.png" alt="">
+                        <img src="images/nikeTwo.png" alt="">
+                        <img src="images/nikeThree.png" alt="">
+                        <img src="images/pistons.png" alt="">
+                        <img src="images/yonexOne.png" alt="">
+                        <img src="images/yonexTwo.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact-page" data-tab-content="">
+                <div class="page page-contact">
+                    <div class="contact-inner">
+                        <h1>want to get in touch?</h1>
+                        <p>If you would like to discuss working together or collaborating in some way then feel free to get in touch.</p>
+                        <p><a href="mailto:oliver_smith@hotmail.co.uk">Email Me<i class="fa fa-envelope"></i></a></p>
+
+                        <p>Or if you would like to see some more of my work then feel free to check out my <a href="">Github</a> and <a href="">Dribbble</a> pages.</p>
+                        <p>Thank you for checking out my portfolio, I hope to hear from you soon.</p>
+                        <p>Oliver Smith</p>
+                    </div>
+                </div>
+            </section>
+            
+
+        </div>
+    </main>
+    
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
