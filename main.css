@@ -363,31 +363,23 @@ nav.active {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 90%;
+    width: 100%;
     padding: 10px;
 }
 
 .programming-project {
     min-height: 300px;
-    width: 450px;
+    width: 400px;
     margin: 2px;
     padding: 10px;
-    border: 1px solid var(--font-col);
-    /* background-color: #001337; */
-    background: repeating-radial-gradient(
-        circle,
-        #001337,
-        #001337 10px,
-        #001337 10px,
-        #001b4c 20px
-    );
+    background-color: #f1d43c;
     border-radius: 0 0 100px 0;
     transition: .25s;
 
     font-family: var(--font-sec);
     /* font-variant: small-caps; */
     font-size: 10px;
-    color: white;
+    color: var(--bg-col);
 
     display: flex;
     flex-direction: column;
@@ -395,29 +387,14 @@ nav.active {
 }
 .programming-project:hover {
     transition: .5s;
-    opacity: .75;
     border-radius: 0 0 0 0;
 }
 .react-project {
-    /* background: #0b3a92; */
-    background: repeating-linear-gradient(
-        45deg,
-        #0b3a92,
-        #0b3a92 10px,
-        #0b3a92 10px,
-        #0d44aa 20px
-    );
+    background: #5bd2f6;
     width: 375px;
 }
 .freelance-project {
-    /* background: #011f57; */
-    background: repeating-linear-gradient(
-        180deg,
-        #011f57,
-        #011f57 10px,
-        #011f57 10px,
-        #01276c 20px
-    );
+    background-color: whitesmoke;
     width: 400px;
 }
 
@@ -437,19 +414,24 @@ nav.active {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-variant: small-caps;
-    font-size: 16px;
+    /* font-variant: small-caps; */
+    font-size: 14px;
+    overflow: scroll;
 }
 .project-tools p {
     margin-right: 20px;
+    margin-bottom: 5px;
+    border: 1px solid var(--bg-col);
+    border-radius: 0 0 20px;
+    padding: 8px;
 }
 .project-tools p i {
     margin-left: 5px;
-    color: var(--font-col);
+    color: var(--bg-col);
 }
 
 .project-links a {
-    color: white;
+    color: var(--bg-col);
     font-size: 14px;
     margin-right: 50px;
     font-style: italic;
