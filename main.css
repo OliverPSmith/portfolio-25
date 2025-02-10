@@ -90,7 +90,6 @@ aside {
     padding: 1px 10px;
 }
 #aside-name {
-    /* display: none; */
     position: fixed;
     left: calc(var(--fixed-pad) + 5px);
     top: calc(var(--fixed-pad) - 25px);
