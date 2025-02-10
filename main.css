@@ -586,7 +586,7 @@ nav.active {
 
 @media only screen and (max-width: 799px) {
     .contact-inner {
-        padding-bottom: 100px;
+        padding: 100px 0;
     }
     .contact-inner h1 {
         font-size: 28px;
