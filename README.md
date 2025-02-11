@@ -1,3 +1,3 @@
 # portfolio25
 
-Demo live link -->> https://oliversmithportfolio-25.netlify.app/
+Live Link -->> https://oliverpsmith.github.io/portfolio-25/
