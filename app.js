@@ -63,7 +63,9 @@ asideName.addEventListener('click', () => {
     hamburger.classList.remove('active');
     nav.classList.remove('active');
     mainInner.classList.remove('active');
-})
+});
+
+
 
 
 
@@ -74,19 +76,12 @@ const asideMenu = document.getElementById('aside-menu');
 tabs.forEach(tab => {
     tab.addEventListener('click', () => {
         asideMenu.innerText = tab.ariaLabel;
-        console.log(tab.ariaLabel);
         // make the target (the tab clicked) a dataset variable
         const target = document.querySelector(tab.dataset.tabTarget)
         // when tab is clicked remove the 'active' class for the tab content
         tabContents.forEach(tabContent => {
             tabContent.classList.remove('active');
         });
-        // remove 'active' class for the tab clicked
-        // tabs.forEach(tab => {
-        //     tab.classList.remove('active');
-        // });
-        // add 'active' class for the tab clicked and its content
-        // tab.classList.add('active');
         target.classList.add('active');
     })
 });

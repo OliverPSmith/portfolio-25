@@ -287,7 +287,6 @@ nav.active {
     }
     .home-headers {
         line-height: 120px;
-        padding: 0 10px;
     }
 }
 
@@ -394,7 +393,9 @@ nav.active {
     align-items: center;
     justify-content: space-between;
     font-variant: small-caps;
-    font-size: 10px;
+}
+.project-header h1 {
+    font-size: 14px;
 }
 
 .project-tools {
@@ -410,6 +411,7 @@ nav.active {
     border: 1px solid var(--bg-col);
     border-radius: 0 0 20px;
     padding: 8px;
+    font-size: 12px;
 }
 .project-tools p i {
     margin-left: 5px;
@@ -436,7 +438,7 @@ nav.active {
         min-height: 400px;
         font-size: 14px;
     }
-    .project-header {
+    .project-header h1 {
         font-size: 12px;
     }
 }
