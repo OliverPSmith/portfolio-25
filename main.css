@@ -129,6 +129,7 @@ aside {
     #aside-icon {
         position: fixed;
         right: calc(var(--fixed-pad) + 25px);
+        z-index: 980;
     }
 }
 
