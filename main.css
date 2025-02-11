@@ -37,7 +37,6 @@ html, body {
 }
 
 body {
-    
     background-color: var(--bg-col);
     color: var(--font-col);
 }
@@ -398,15 +397,18 @@ nav.active {
 }
 .programming-project:hover {
     transition: .5s;
+    /* background: transparent;
+    color: var(--font-col);
+    border: 1px solid var(--font-col); */
     border-radius: 0 0 0 0;
 }
 .react-project {
     background: #5bd2f6;
-    width: 375px;
+    /* width: 375px; */
 }
 .freelance-project {
     background-color: whitesmoke;
-    width: 400px;
+    /* width: 400px; */
 }
 
 .project-header {
