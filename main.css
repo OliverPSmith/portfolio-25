@@ -122,12 +122,14 @@ aside {
 #aside-icon a i {
     color: var(--font-col);
     font-size: 20px;
+
 }
 
 @media only screen and (max-width: 799px) {
     #aside-icon {
         position: fixed;
         right: calc(var(--fixed-pad) + 25px);
+        pointer-events: all;
     }
 }
 
