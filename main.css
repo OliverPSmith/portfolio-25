@@ -119,7 +119,7 @@ aside {
     right: calc(var(--fixed-pad) + 30px);
     bottom: calc(var(--fixed-pad) + 10px);
 }
-#aside-icon a {
+#aside-icon a i {
     color: var(--font-col);
     font-size: 20px;
 
