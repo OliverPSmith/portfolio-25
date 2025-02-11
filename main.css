@@ -443,13 +443,13 @@ nav.active {
         padding-bottom: 200px;
     }
 
-    .programming-project, .programming-project:nth-child(even), .programming-project:nth-child(3n) {
+    .programming-project {
         width: 100%;
         min-height: 400px;
-        font-size: 16px;
+        font-size: 14px;
     }
     .project-header {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
