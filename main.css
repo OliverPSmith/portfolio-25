@@ -129,7 +129,6 @@ aside {
     #aside-icon {
         position: fixed;
         right: calc(var(--fixed-pad) + 25px);
-        pointer-events: all;
     }
 }
 
