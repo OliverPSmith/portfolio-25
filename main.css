@@ -70,7 +70,7 @@ main {
     bottom: var(--fixed-pad);
     border-radius: 0 0 250px 0;
 
-    background: url(/images/Portfolio\ BG\ 3.png);
+    background: url(images/innerBG.png);
     background-repeat: repeat;   
     background-size: cover;         
     background-position: 50% 100%;  
