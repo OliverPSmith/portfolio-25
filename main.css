@@ -127,7 +127,7 @@ aside {
 
 @media only screen and (max-width: 799px) {
     #aside-icon {
-        position: absolute;
+        position: fixed;
         right: calc(var(--fixed-pad) + 25px);
     }
 }
