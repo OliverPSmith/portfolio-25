@@ -271,18 +271,6 @@ nav.active {
     font-size: 7vw;
 }
 
-.home-info {
-    display: none;
-    flex-direction: column;
-    padding: 0 5px;
-    font-family: var(--font-sec);
-    font-size: 14px;
-    font-variant: small-caps;
-}
-.home-info p {
-    margin-bottom: 5px;
-}
-
 
 @media only screen and (max-width: 799px) {
     .page-home {
